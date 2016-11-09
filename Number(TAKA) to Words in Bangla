@@ -1,7 +1,7 @@
 $('#ID').change(function () {
 	var tk = $('#ID').val();
   var res = tk.split(".");
-	var text = convert(res[0]);
+	var text = convert_koti(res[0]);
   var textpoy = convert_tens(res[1]);
   alert(tk + ' : '+ text +' টাকা '+ textpoy +' পয়সা');
 });
